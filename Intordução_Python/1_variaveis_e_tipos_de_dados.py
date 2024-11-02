@@ -1,6 +1,5 @@
 # Variáveis e tipos de dados
 
-
 # -> Receber dados
 # -> Armazenar dados
 # -> Processar dados

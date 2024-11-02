@@ -12,6 +12,7 @@
 # -> bool (Boleano) True, False
 
 idade = 10.2
-
+idade = 22
+idade = "Diego Carvalho"
 
 print( type (idade))

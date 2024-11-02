@@ -6,5 +6,12 @@
 # -> Processar dados
 # -> Mostrar dados processados
 
-idade = 21 - 3
-print(idade)
+# -> int (inteiro)
+# -> float (idecimal)
+# -> str (string) Cadeia de caracteres "Diego Carvalho" 'True' '10'
+# -> bool (Boleano) True, False
+
+idade = 10.2
+
+
+print( type (idade))

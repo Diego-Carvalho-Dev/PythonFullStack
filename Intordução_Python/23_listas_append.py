@@ -1,13 +1,14 @@
 #LISTAS APPEND
 
-# nomes = []
+nomes = []
 
-# while True:
-#     nome = input('Digite -1 para sair ou cadastre um nome: ')
-#     if nome == "-1":
-#         break
+while True:
+    nome = input('Digite -1 para sair ou cadastre um nome: ')
+    if nome == "-1":
+        break
     
-#     nomes.append(nome)
+    nomes.append(nome)
     
-# print(nomes)
+print(nomes)
+
 

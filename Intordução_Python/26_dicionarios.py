@@ -29,3 +29,12 @@ pessoas = [
 
 for i in pessoas:
     print(i['nome'])
+
+
+############################################################################
+#atualizando dict
+person = {'name': 'Diego Carvalho', 'idade': 37, 'altura': 173}
+person['cep'] = '09894070'#adiconando cep dentro do DICT,
+person.update({'name': 'Michele'})#atualizando dict
+
+print(person)

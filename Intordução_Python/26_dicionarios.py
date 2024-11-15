@@ -32,9 +32,24 @@ for i in pessoas:
 
 
 ############################################################################
-#atualizando dict
+
 person = {'name': 'Diego Carvalho', 'idade': 37, 'altura': 173}
 person['cep'] = '09894070'#adiconando cep dentro do DICT,
 person.update({'name': 'Michele'})#atualizando dict
 
 print(person)
+
+#############################################################################
+
+#ITERAR CHAVES E VALORES 
+#values
+
+persons = {'name': 'Diego Carvalho', 'idade': 37, 'altura': 173}
+
+for i in persons.items():
+    print(i[0], i[1])
+
+    #ou
+
+for i, j in persons.items():
+    print(f'i = {i} j = {j}')

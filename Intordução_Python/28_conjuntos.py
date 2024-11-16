@@ -21,5 +21,14 @@ print(z)
 
 #diference = verifica as diferentes
 
-z = z.difference(y)
-print(z)
+
+t = {1,2,3,4,5,6}
+y = {1,3,7,8,9,10}
+
+t = t.difference(y)
+print(t)
+
+#symmetric_difference = união a intersection nele nao conta
+t = t.symmetric_difference(y)
+print(t)
+

@@ -43,3 +43,14 @@ def somar(**kwargs):
 
 somar(test1 = 1, teste2 = 2, teste3 = 3)
 
+###############################################3
+#Retornando valores da função
+
+def valor(n1, n2):
+    
+    return n1 + n2
+
+print(valor(1,2))
+
+###################################################
+

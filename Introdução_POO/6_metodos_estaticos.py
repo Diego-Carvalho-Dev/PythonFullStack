@@ -6,6 +6,7 @@ class Pessoas:
     possui_boca = True
     raca = "humano"
     
+    
 
     def __init__(self, nome, idade, cpf):
         self.nome = nome
@@ -22,9 +23,11 @@ class Pessoas:
     def andar(cls):#CLS é o estado da classmethod
         cls.possui_boca = False
         return None
+    
+    @staticmethod
+    def e_adulto(idade):
+        if idade > 18:
+            return True
+        return False
 
-
-print(Pessoas.possui_boca)
-Pessoas.andar()
-print(Pessoas.possui_boca)
-
+print(Pessoas.e_adulto(21))
